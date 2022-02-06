@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/modal.css">
+</head>
+
+<body>
+    <main>
+        <div class="banner">
+            <div class="container banner_container">
+                <header class="header">
+                    <div class="logo">
+                        <img src="./img/logo.png" alt="logo" class="logo">
+                    </div>
+
+                    <nav class="nav_list">
+                        <img src="./img/close.png" alt="" class="close">
+                        <ul id="menu">
+                            <li class="nav_item"><a href="#about">О нас</a></li>
+                            <li class="nav_item"><a href="#design">Дизайн</a></li>
+                            <li class="nav_item"><a href="#products">Ассортимент</a></li>
+                            <li class="nav_item"><a href="#payment">Оплата и доставка</a></li>
+                            <li class="nav_item">Отзывы</li>
+                            <li class="nav_item"><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
+
+                    <img src="./img/hamburger.png" alt="" class="hamburger">
+
+                </header>
+
+                <section class="banner_content">
+                    <h1 class="heading banner_heading">Кофе для тебя</h1>
+                    <p class="text banner_text">Бодрящий, ароматный напиток не оставит равнодушным даже самых большых
+                        ценителей
+                    </p>
+                    <a href="#order" class="button banner_button">Заказать кофе</a>
+                </section>
+            </div>
+        </div>
+
+        <section class="about" id="about">
+            <div class="container about_container">
+                <h2 class="heading about_heading">О нас</h2>
+                <div class="about_content">
+                    <img src="./img/about_bg.jpg" alt="about us" class="about_img">
+                    <div class="about_info">
+                        <h3 class="about_content_heading">Coffee Step</h3>
+                        <p class="text about_text">Является прекрасным местом, где можно не только приятно посидеть,
+                            выпить
+                            чашечку ароматного напитка или перекусить, но и купить кофе в зернах. Оформлена она бежевых
+                            оттенках. Мебель порадует классическим исполнением. Большая
+                            барная стойка позволит бариста продемонстрировать процесс приготовления кофе. Входя в
+                            помещение,
+                            начинаешь чувствовать невероятный, крепкий и устойчивый характерный аромат. Здесь предлагают
+                            не
+                            только горячие напитки, но и натуральные кофейные зёрна от лучших производителей.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="design" id="design">
+            <div class="container design_container">
+                <h2 class="heading design_heading">Дизайн</h2>
+                <div class="gallery">
+                    <img src="./img/design1.jpg" alt="design_photo" class="gallery_item">
+                    <img src="./img/design2.jpg" alt="design_photo" class="gallery_item">
+                    <img src="./img/desing4.jpg" alt="design_photo" class="gallery_item">
+                    <img src="./img/design3.jpg" alt="design_photo" class="gallery_item">
+                    <img src="./img/design_big.jpg" alt="design_photo" class="gallery_item">
+                </div>
+            </div>
+        </section>
+
+        <section class="products" id="products">
+            <div class="container products_container">
+                <h2 class="heading products_heading">Ассортимент</h2>
+                <div class="products_cards_container">
+                    <div class="product_card">
+                        <img src="./img/starbucks.png" alt="starbucks" class="product_img">
+                        <div class="product_card_content">
+                            <p class="text product_name">Кофе Starbucks Blonde</p>
+                            <p class="text product_price">170 ₴</p>
+                        </div>
+                    </div>
+
+                    <div class="product_card">
+                        <img src="./img/zhokey.png" alt="starbucks" class="product_img">
+                        <div class="product_card_content">
+                            <p class="text product_name">Кофе “Жокей”</p>
+                            <p class="text product_price">140 ₴</p>
+                        </div>
+                    </div>
+
+                    <div class="product_card">
+                        <img src="./img/ferarra.png" alt="starbucks" class="product_img">
+                        <div class="product_card_content">
+                            <p class="text product_name">Кофе Starbucks Blonde</p>
+                            <p class="text product_price">170 ₴</p>
+                        </div>
+                    </div>
+
+                    <div class="product_card">
+                        <img src="./img/ethiopia.png" alt="starbucks" class="product_img">
+                        <div class="product_card_content">
+                            <p class="text product_name">Кофе “Ethiopia”</p>
+                            <p class="text product_price">166 ₴</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="payment" id="payment">
+            <div class="container payment_container">
+                <h2 class="heading payment_heading">Оплата и доставка</h2>
+                <div class="payment_process">
+                    <div class="process_card">
+                        <h3 class="text process_heading">Заявка</h3>
+                        <p class="text process_text">Отправляем заявку на нашем сайте. Вся информация полностью
+                            конфиденциальна.</p>
+                    </div>
+
+                    <div class="process_card">
+                        <h3 class="text process_heading">Звонок</h3>
+                        <p class="text process_text">Менеджер уточняет детали заказа. Вы получаете сообщение на email с
+                            информацией о заказе.</p>
+                    </div>
+
+                    <div class="process_card">
+                        <h3 class="text process_heading">Доставка</h3>
+                        <p class="text process_text">Курьерская доставка заказа Новой почтой или же самовывоз из
+                            кофейни.
+                        </p>
+                    </div>
+
+                    <div class="process_card">
+                        <h3 class="text process_heading">Оплата</h3>
+                        <p class="text process_text">Оплата банковской картой, наличными при получении, наложеный платеж
+                            .
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="comments">
+            <div class="container comments_container">
+                <h2 class="heading comments_heading">Отзывы</h2>
+
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                    </div>
+                </div>
+                <div class="swiper-navigation">
+                    <button id="swiperPrev">&lt;</button>
+                    <button id="swiperNext">&gt;</button>
+                </div>
+            </div>
+        </section>
+        <section class="order" id="order">
+            <div class="container order_container">
+                <img src="./img/order_bg.jpg" alt="" class="orger_img">
+                <form action="" class="order_form">
+                    <h3 class="text order_form_heading">Оформить заказ</h3>
+
+                    <input type="text" placeholder="Имя" class="text order_input">
+                    <input type="number" placeholder="Номер телефона" class="text order_input">
+                    <input type="submit" value="Заказать кофе" class="button order_button" data-btn="order">
+                </form>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer class="footer" id="contacts">
+        <div class="container footer_container">
+            <div class="footer_info">
+                <div class="footer_contacts">
+                    <ul class="text footer_address">
+                        <li class="footer_item">Харьков, ул. Пушкинская 13</li>
+                        <li class="footer_item">Киев, проспект Свободы 45</li>
+                        <li class="footer_item">Полтава, ул. Мирная 2</li>
+                        <li class="footer_item">+ 380 (66) 649 74 25</li>
+                        <li class="footer_item">coffeestep@gmail.com</li>
+                    </ul>
+
+                    <div class="footer_social">
+                        <a href=""><img src="./img/instagram.png" alt="" class="social_item"></a>
+                        <a href=""><img src="./img/facebook.png" alt="" class="social_item"></a>
+                        <a href=""><img src="./img/telegram.png" alt="" class="social_item"></a>
+                    </div>
+                </div>
+
+
+                <p class="text footer_time">Время работы
+                    ПН - ПТ 11:00 - 23:00
+                    СБ - ВС 11:00 - 21:00</p>
+            </div>
+
+            <img src="./img/map.jpg" alt="" class="footer_img">
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
+</body>
+
+</html>
